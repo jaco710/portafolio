@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+    font-family: sans-serif;
+}
+.header{
+    padding: 0 20px;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.header a{
+    text-decoration: none;
+}
+.header h1{
+    text-align: center;
+}
+header h1 a{
+    color: #d44;
+}
+nav{
+    text-align: right;
+}
+nav ul li{
+    display: inline;
+}
